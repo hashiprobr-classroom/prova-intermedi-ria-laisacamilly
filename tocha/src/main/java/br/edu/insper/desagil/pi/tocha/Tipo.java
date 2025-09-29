@@ -97,6 +97,7 @@ public class Tipo {
         return new Imagem(saida);
     }
 
+    //Teste
 
 }
 
