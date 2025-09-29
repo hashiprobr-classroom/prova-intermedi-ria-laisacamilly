@@ -64,9 +64,11 @@ public class Filtro extends Tipo {
             }
 
             return new Imagem(saida);
-        } else {
+        }
+        else {
             throw new IllegalStateException("tipo inválido");
         }
+        return imagem;
     }
 
         private static Imagem getImagem2 (Imagem imagem){
@@ -123,6 +125,5 @@ public class Filtro extends Tipo {
 
             return new Imagem(saida);
         }
-}
 }
 
