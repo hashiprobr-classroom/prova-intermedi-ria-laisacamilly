@@ -94,10 +94,11 @@ public class Tipo {
             }
         }
 
-        return new Imagem(saida);
+        return new Imagem( saida);
     }
 
     //Teste
+    //Tete
 
 }
 
